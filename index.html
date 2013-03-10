@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Демонстрация</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="tooltip/jquery.tooltip.css">
+
+<script src="tooltip/jquery.tooltip.js" type="text/javascript">
+/***********************************************
+ * JQuery Tooltip Plugin
+ * This notice must stay intact for usage
+ * Author: VAlex at http://valex.net.ru
+ * Visit http://valex.net.ru/ for full source code
+ ***********************************************/
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $("a.tooltip").tooltip();
+});
+</script>
+</head>
+<body>
+
+<div id="content" style="width: 600px;">
+    <p>
+        Наводите указатель мыши на приведенные в этом абзаце <a href="#" class="tooltip" title="Текст всплывающей подсказки">ссылки</a>, и вы увидите всплывающий tooltip - анимированную подсказку. Такой эффект вы получите для всех ссылок у которых присутствует и заполнен атрибут <a href="http://htmlbook.ru/html/attr/title" target="_blank" class="tooltip" title="смотрите справку на htmlbook">title</a>.
+    </p>
+
+    <p>
+        Программирование, web-разработка - <a target="_blank" href="http://valex.net.ru/" class="tooltip" title="Клик)">http://valex.net.ru</a>
+        <br>
+        Связь с автором скрипта через форму на сайте <a target="_blank" href="http://valex.net.ru/site/contact.html" class="tooltip" title="Клик)">Форма для связи</a>
+    </p>
+</div>
+
+
+</body>
+</html>
